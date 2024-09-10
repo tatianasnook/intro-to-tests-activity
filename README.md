@@ -113,4 +113,4 @@ $ pytest -s
 
 5. To run tests all at once, press the play button at the top of the test exploration tab. To run a single test, open up the test tree, hover over the test you want to run and press the play button.
 
-![Run single or all tests]()
+![Run single or all tests](images/run_tests.png)
