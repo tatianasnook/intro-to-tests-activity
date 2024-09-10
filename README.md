@@ -64,6 +64,8 @@ We will be writing tests for some pre-written code. Once everyone has the repo c
 3. As a group, come up with a few nominal and edge cases you would like to test relating to the feature provided.
 4. Find the appropriate file in which to write your tests and start writing them. 
 
+*NOTE* There are currently two prewritten dummy tests used for demonstration purposes. Feel free to delete these once you have written your own tests.
+
 ### Part 2.5: Running Tests Via Console
 1. Find the test file that contains the test you want to run.
 
@@ -109,4 +111,6 @@ $ pytest -s
 
 ![Successful test configuration](images/configure_tests_success.png)
 
-5. To run test all
+5. To run tests all at once, press the play button at the top of the test exploration tab. To run a single test, open up the test tree, hover over the test you want to run and press the play button.
+
+![Run single or all tests]()
