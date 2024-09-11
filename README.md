@@ -19,7 +19,7 @@ $ cd ~/Developer/projects
 
 ![Cloning a repository in Github](images/cloning_a_repo.png)
 
-After copying the URL, run the following command in your terminal:
+3. After copying the URL, run the following command in your terminal:
 
 ```
 $ git clone <paste your copied URL here>
