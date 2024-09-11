@@ -39,7 +39,7 @@ $ cd intro-to-tests-activity
 $ python3 -m venv venv
 ```
 
-3. Activate this environment:
+6. Activate this environment:
 
 ```bash
 $ source venv/bin/activate
