@@ -27,7 +27,7 @@ $ git clone <paste your copied URL here>
 
 Use `ls` to confirm there's a new project folder
 
-1. Move your location into this project folder
+4. Move your location into this project folder
 
 ```bash
 $ cd intro-to-tests-activity
