@@ -19,7 +19,7 @@ $ cd ~/Developer/projects
 
 ![Cloning a repository in Github](images/cloning_a_repo.png)
 
-3. After copying the URL, run the following command in your terminal:
+After copying the URL, run the following command in your terminal:
 
 ```
 $ git clone <paste your copied URL here>
@@ -27,30 +27,30 @@ $ git clone <paste your copied URL here>
 
 Use `ls` to confirm there's a new project folder
 
-4. Move your location into this project folder
+3. Move your location into this project folder
 
 ```bash
 $ cd intro-to-tests-activity
 ```
 
-5. Create a virtual environment named `venv` for this project:
+4. Create a virtual environment named `venv` for this project:
 
 ```bash
 $ python3 -m venv venv
 ```
 
-6. Activate this environment:
+5. Activate this environment:
 
 ```bash
 $ source venv/bin/activate
 ```
 
-Verify that you're in a python3 virtual environment by running:
+6. Verify that you're in a python3 virtual environment by running:
 
 - `$ python --version` should output a Python 3 version
 - `$ pip --version` should output that it is working with Python 3
 
-7. Install dependencies once at the beginning of this project while your virtual environment is activated. Note that `(venv)` is not part of the command below that you need to run.
+ 7. Install dependencies once at the beginning of this project while your virtual environment is activated. Note that `(venv)` is not part of the command below that you need to run.
 
 ```bash
 $ (venv) pip install -r requirements.txt
@@ -97,7 +97,7 @@ $ pytest -s
 ### Part 3: Running Tests Via VSCode
 1. With pytest installed, you should see a beaker icon in the toolbar on the left. Click the icon and you should be prompted with an opportunity to configure test. Click the button to configure tests.
 
-![Selecting the testing tab](images/select_tests_configure_tests.png)
+![Selecting the testing tab](images/select_testing_tab_configure_tests.png)
 
 2. A selector will pop up at the top of your VS Code asking which testing framework you would like to use. By default, unittest will be selected. Make sure you select *pytest*
 
