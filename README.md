@@ -15,7 +15,7 @@ Follow these directions once when you start working on this activity **during ro
 $ cd ~/Developer/projects
 ```
 
-2. In Github click on the green "Code" button in Github and then copy the URL. This will allow you to download a copy of this project into your projects folder. This command makes a new folder called `intro-to-tests-activity`, and then puts the project into this new folder. 
+1. In Github click on the green "Code" button in Github and then copy the URL. This will allow you to download a copy of this project into your projects folder. 
 
 ![Cloning a repository in Github](images/cloning_a_repo.png)
 
@@ -24,8 +24,7 @@ After copying the URL, run the following command in your terminal:
 ```
 $ git clone <paste your copied URL here>
 ```
-
-Use `ls` to confirm there's a new project folder
+This command makes a new folder called `intro-to-tests-activity`, and then puts the project into this new folder. Use `ls` to confirm there's a new project folder
 
 3. Move your location into this project folder
 
