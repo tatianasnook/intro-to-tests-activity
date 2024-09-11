@@ -15,7 +15,7 @@ Follow these directions once when you start working on this activity **during ro
 $ cd ~/Developer/projects
 ```
 
-1. In Github click on the green "Code" button in Github and then copy the URL. This will allow you to download a copy of this project into your projects folder. 
+2. In Github click on the green "Code" button in Github and then copy the URL. This will allow you to download a copy of this project into your projects folder. 
 
 ![Cloning a repository in Github](images/cloning_a_repo.png)
 
