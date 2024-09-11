@@ -33,7 +33,7 @@ Use `ls` to confirm there's a new project folder
 $ cd intro-to-tests-activity
 ```
 
-2. Create a virtual environment named `venv` for this project:
+5. Create a virtual environment named `venv` for this project:
 
 ```bash
 $ python3 -m venv venv
