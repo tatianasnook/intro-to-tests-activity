@@ -3,6 +3,8 @@ def count_a_letter(sentence, letter):
         return None
     if not sentence:
         return None
+    if sentence.isnumeric():
+        return None
     
     count = 0
     for char in sentence:

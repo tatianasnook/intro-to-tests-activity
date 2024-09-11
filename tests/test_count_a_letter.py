@@ -1,19 +1,33 @@
 from main import count_a_letter
 import pytest
 
-def test_demo_one():
-    num_1 = 8
-    num_2 = 9
+def test_count_a_letter():
+    sentence = 'Hello World!'
+    letter = 'l'
 
-    result = num_1 + num_2
+    result = count_a_letter(sentence, letter)
+    assert result == 3
 
-    assert result == 17
 
-def test_demo_two():
-    num_1 = 18
-    num_2 = 24
+def test_count_a_letter_check_letter_is_valid():
+    sentence = 'Hello World!'
+    letter = '2'
 
-    result = num_1 + num_2
+    result = count_a_letter(sentence, letter)
+    assert result == None
 
-    assert result == 42
-# Delete the demo tests and add your tests here 
+
+def test_count_a_letter_check_sentence_is_empty():
+    sentence = ''
+    letter = 'e'
+
+    result = count_a_letter(sentence, letter)
+    assert result == None
+
+
+def test_count_a_letter_check_sentence_is_valid():
+    sentence = '12345'
+    letter = 'l'
+
+    result = count_a_letter(sentence, letter)
+    assert result == None
